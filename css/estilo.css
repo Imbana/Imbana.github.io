@@ -27,6 +27,7 @@
     height: 70px;    
     align-items: center;
     font-weight: 700;    
+    
 }
 
 
@@ -135,6 +136,16 @@ box-shadow: -1px 25px 32px 0px rgba(0,0,0,0.77);
     transform:scale(1.2,1.2); 
 }
 
+.header_icons:hover{
+    color: #000;
+    transition: 0.3s;
+}
+
+.header_icon:hover{
+    color: #fff;
+    transition: 0.3s;
+}
+
 .header_icons{
    display: flex;
   
@@ -144,7 +155,7 @@ box-shadow: -1px 25px 32px 0px rgba(0,0,0,0.77);
     margin: 0 40px 0 0 ;
     color: #56199a;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 50px;
     margin-top: 20px;
 }
 
@@ -205,6 +216,7 @@ box-shadow: -1px 25px 32px 0px rgba(0,0,0,0.77);
     padding:10px 15px;
     border-radius: 6px;   
     font-size: 25px;
+    transition: 0.3s;
    
 
     
@@ -214,14 +226,16 @@ box-shadow: -1px 25px 32px 0px rgba(0,0,0,0.77);
    
     align-items: center;
     width: 70%;  
-    margin: 50px 0 30px ;
     font-size: 20px;
     margin: 0 auto;
-    padding: 30px 0 60px 0;
+    padding:90px 0 60px 0;
     
 }
 
-
+.header_descargar:hover{
+    color:#fff;
+    background:#56199a; 
+}
 
 
 /* -----------------------SKILLS-----------------------*/
@@ -274,9 +288,9 @@ box-shadow: -1px 25px 32px 0px rgba(0,0,0,0.77);
 .skill_python{
     width: 80%;
     animation: python 2s;
-    animation-iteration-count: infinite;
+    /*animation-iteration-count: infinite;
     animation-delay: 3s;
-}
+*/}
 
 .skill_html{
     width: 70%;
@@ -378,7 +392,6 @@ box-shadow: -1px 25px 32px 0px rgba(0,0,0,0.77);
 }
 
 
-
 .educacion_cards{
     max-width: 950px;
     display: flex;
@@ -386,17 +399,19 @@ box-shadow: -1px 25px 32px 0px rgba(0,0,0,0.77);
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    padding: 30px;
-    margin: 0 auto;
+    
+    
+    margin: 0px auto;
     
 }
+
 
 .educacion_card{
     position: relative;
     width: 30%;
     
     height: 180px;
-    background:#2c3e50;
+    background:#000;
     margin: 60px 10px;
     padding: 20px 20px;
     transition: 0.5s ease-in-out;
@@ -410,7 +425,7 @@ box-shadow: -1px 25px 32px 0px rgba(0,0,0,0.77);
 .educacion_img{
     width: 80%;
     height: 210px;
-    object-fit: cover;
+    object-fit: contain;
     
     position: absolute;
     background: #fff;
@@ -716,11 +731,13 @@ box-shadow: -1px 25px 32px 0px rgba(0,0,0,0.77);
     .about_informacion{
         text-align: start;
     }
-    
+
     .habi_skill{
         width: 100%;
     }
-    
+    .icon_link{
+        font-size: 50px;
+    }
     .nav_items{
     position: relative;
     z-index: 100%; 
@@ -730,7 +747,13 @@ box-shadow: -1px 25px 32px 0px rgba(0,0,0,0.77);
     margin-bottom: 30px;
     }
  
-
+    .header_nav{
+        padding-top: 25px;
+    }
+    
+    .header_main{
+        margin-top: -400px;
+    }
 }
 
 

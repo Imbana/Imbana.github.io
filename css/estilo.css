@@ -34,7 +34,7 @@ font-family: 'Arvo', serif;
 
 .header_background {
   width: 100%;
-  height: 550px;
+  height: 610px;
   position: relative;
   z-index: -9999;
   margin-top: -70px;
@@ -58,10 +58,7 @@ font-family: 'Arvo', serif;
 
 }
 
-.nav_items{
-    
-    
-}
+
 
 .nav_item  {
   text-decoration: none;
@@ -198,7 +195,7 @@ font-family: 'Arvo', serif;
   background: #dddddd;
   margin-top: -85px;
   height: auto;
-  padding-top: 150px;
+  padding-top: 140px;
   text-align: center;
 }
 
@@ -582,7 +579,7 @@ font-family: 'Arvo', serif;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   .soliwork {
     display: none;
   }
@@ -600,7 +597,7 @@ font-family: 'Arvo', serif;
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
   .header_main {
     flex-direction: column;
     height: 900px;
@@ -611,9 +608,17 @@ font-family: 'Arvo', serif;
     text-align: center;
       
   }
+    
+    .header_bg{
+        position: relative
+        
+    }
+    
 
   .header_about {
-    margin: 0 auto;
+      width: 90%;
+      margin: 0 auto;
+      text-align: start;
   }
 
   .proyecto_card {
@@ -626,8 +631,8 @@ font-family: 'Arvo', serif;
     margin-left: 15%;
   }
   .header_CV {
-    margin-top: -500px;
-    padding-top: 590px;
+    margin-top: -520px;
+    padding-top: 570px;
   }
 
   .educacion_card {
@@ -642,8 +647,9 @@ font-family: 'Arvo', serif;
     width: 80%;
   }
   .header_nav {
+      margin-bottom: 30px
   }
-  .nav_itim {
+  .nav_itemss {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -658,7 +664,65 @@ font-family: 'Arvo', serif;
 
 
 
+@media screen and (max-width: 380px) {
+  .header_main {
+    flex-direction: column;
+    height: 900px;
+    padding: 40px 0;
+    margin-top: -430px;
+    position: relative;
+    z-index: 99;
+    text-align: center;
+      
+  }
+    
 
+    
+
+  .header_about {
+      width: 100%;
+      margin: 0  auto;
+      text-align: start;
+  }
+
+  .proyecto_card {
+    width: 80%;
+  }
+
+  .header_img {
+    width: 70%;
+    height: 350px;
+    margin-left: 15%;
+  }
+  .header_CV {
+    margin-top: -610px;
+    padding-top: 650px;
+  }
+
+  .educacion_card {
+    width: 70%;
+  }
+
+  .habi_skills {
+    flex-direction: column;
+
+  }
+  .habi_skill {
+    width: 80%;
+  }
+
+  .nav_itemss {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+  }
+   
+  
+  .header_main {
+    margin-top: -290px;
+  }
+}
 
 
 

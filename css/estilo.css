@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap");
 
-body{
-font-family: 'Arvo', serif;
+body {
+  font-family: "Arvo", serif;
 }
 
 .container {
@@ -28,8 +28,7 @@ font-family: 'Arvo', serif;
   height: 60px;
   align-items: center;
   font-weight: 700;
-  margin: 10px 40px  0 40px; 
-  
+  margin: 10px 40px 0 40px;
 }
 
 .header_background {
@@ -54,13 +53,9 @@ font-family: 'Arvo', serif;
   color: #fff;
   font-weight: 500;
   align-content: center;
-
-
 }
 
-
-
-.nav_item  {
+.nav_item {
   text-decoration: none;
   color: #fff;
   display: inline-block;
@@ -181,7 +176,7 @@ font-family: 'Arvo', serif;
 
 .about_copys {
   margin-right: 100px;
-    margin-left: 20px;
+  margin-left: 20px;
   color: #3c424a;
   font-weight: 500;
 }
@@ -190,7 +185,6 @@ font-family: 'Arvo', serif;
 .about_copy {
   margin: 15px 0;
 }
-
 
 .header_CV {
   background: #dddddd;
@@ -300,7 +294,7 @@ font-family: 'Arvo', serif;
 }
 
 .skill_PLCs {
-  width: 40%;
+  width: 70%;
   animation: PLCs 2s;
 }
 
@@ -354,7 +348,7 @@ font-family: 'Arvo', serif;
     width: 0%;
   }
   100% {
-    width: 40%;
+    width: 70%;
   }
 }
 
@@ -373,31 +367,38 @@ font-family: 'Arvo', serif;
 .educacion_cards {
   max-width: 950px;
   display: flex;
-  /*flex-direction: row-reverse;*/
-  /*flex-direction: row-reverse;*/
-  /*flex-direction: row-reverse;*/
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
-
   margin: 0px auto;
 }
 
 .educacion_card {
   position: relative;
   width: 30%;
-
   height: 180px;
-  background: #0F2027;  /* fallback for old browsers */
-  background: linear-gradient(to top, rgba(8, 17, 21, 0.41), #13282f, rgba(12, 23, 28, 0.78));  
+  background: #0f2027; /* fallback for old browsers */
+  background: linear-gradient(
+    to top,
+    rgba(8, 17, 21, 0.41),
+    #13282f,
+    rgba(12, 23, 28, 0.78)
+  );
   margin: 60px 10px;
   padding: 20px 20px;
   transition: 0.5s ease-in-out;
-  
 }
 
 .educacion_card:hover {
-  height: 520px;
+  height: 550px;
+}
+
+.educacion_card2:hover {
+  height: 380px;
+}
+
+.educacion_card3:hover {
+  height: 450px;
 }
 
 .educacion_img {
@@ -418,14 +419,10 @@ font-family: 'Arvo', serif;
 
 .eduacion_text {
   width: 100%;
-  width: 100%;
-  width: 100%;
-
+  box-sizing: border-box;
   color: #fff;
   text-align: left;
   visibility: hidden;
-  opacity: 0;
-  opacity: 0;
   opacity: 0;
   transition: 0.5s;
 }
@@ -574,31 +571,31 @@ font-family: 'Arvo', serif;
   margin: 50px 0 0 0;
 }
 
-@media screen and (max-width: 1000px) {
-  .soliwork {
-    display: none;
-  }
-}
 
-@media screen and (max-width: 950px) {
-  .soliwork {
-    display: none;
-  }
+
+@media screen and (max-width: 1000px) {
 
   .proyecto_card {
     width: 45%;
-
   }
-
+  .educacion_card:hover {
+    height: 480px;
+  }
   .educacion_card {
     width: 45%;
   }
   .header_nav {
     flex-direction: column;
   }
+    .educacion_card4:hover{
+    height: 530px;
+  }
+  .educacion_card2:hover {
+  height: 380px;
+}
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
   .header_main {
     flex-direction: column;
     height: 900px;
@@ -607,23 +604,20 @@ font-family: 'Arvo', serif;
     position: relative;
     z-index: 99;
     text-align: center;
-      
   }
-    
-    .header_bg{
-        position: relative
-        
-    }
-    
+
+  .header_bg {
+    position: relative;
+  }
 
   .header_about {
-      width: 90%;
-      margin: 0 auto;
-      text-align: start;
+    width: 90%;
+    margin: 0 auto;
+    text-align: start;
   }
 
   .proyecto_card {
-    width: 80%;
+    width: 90%;
   }
 
   .header_img {
@@ -637,18 +631,20 @@ font-family: 'Arvo', serif;
   }
 
   .educacion_card {
-    width: 70%;
+    width: 85%;
+  }
+  .educacion_card:hover {
+    height: 450px;
   }
 
   .habi_skills {
     flex-direction: column;
-
   }
   .habi_skill {
     width: 80%;
   }
   .header_nav {
-      margin-bottom: 30px
+    margin-bottom: 30px;
   }
   .nav_itemss {
     display: flex;
@@ -658,12 +654,13 @@ font-family: 'Arvo', serif;
   .header_main {
     margin-top: -380px;
   }
+    .educacion_card4:hover{
+    height: 540px;
+  }
+  .educacion_card2:hover {
+  height: 380px;
 }
-
-
-
-
-
+}
 
 @media screen and (max-width: 380px) {
   .header_main {
@@ -674,20 +671,16 @@ font-family: 'Arvo', serif;
     position: relative;
     z-index: 99;
     text-align: center;
-      
   }
-    
-
-    
 
   .header_about {
-      width: 100%;
-      margin: 0  auto;
-      text-align: start;
+    width: 100%;
+    margin: 0 auto;
+    text-align: start;
   }
 
   .proyecto_card {
-    width: 80%;
+    width: 95%;
   }
 
   .header_img {
@@ -701,12 +694,11 @@ font-family: 'Arvo', serif;
   }
 
   .educacion_card {
-    width: 70%;
+    width: 850%;
   }
 
   .habi_skills {
     flex-direction: column;
-
   }
   .habi_skill {
     width: 80%;
@@ -716,54 +708,18 @@ font-family: 'Arvo', serif;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
   }
-   
-  
+
+  .educacion_card:hover {
+    height: 550px;
+  }
   .header_main {
     margin-top: -290px;
   }
+    .educacion_card4:hover{
+    height: 620px;
+  }
+  .educacion_card2:hover {
+  height: 380px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
